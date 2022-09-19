@@ -16,5 +16,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: codacy/git-version@2.4.0
       
-      - name: git_checkout
-        run: git checkout https://github.com/SadYoungDoni/test_forking_private.git
+      - name: git_clone
+        run: git clone https://github.com/SadYoungDoni/test_forking_private.git
